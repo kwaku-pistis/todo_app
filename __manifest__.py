@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Pistis Todo App",
+    'name': "arch",
 
     'summary': """
-            a module created to aid my learning process
+        This is a trial module or my first module.
         """,
 
     'description': """
         Long description of module's purpose
     """,
 
-    'author': "Pistis",
+    'author': "pistis",
     'website': "http://www.pistis.com",
 
     # Categories can be used to filter modules in modules listing
@@ -20,13 +20,15 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'mail'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/arch_menu.xml',
+        'views/arch_todo_view.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

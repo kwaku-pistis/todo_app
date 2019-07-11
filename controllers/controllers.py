@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 from odoo import http
 
-# class TodoApp(http.Controller):
-#     @http.route('/todo_app/todo_app/', auth='public')
+# class Arch(http.Controller):
+#     @http.route('/arch/arch/', auth='public')
 #     def index(self, **kw):
 #         return "Hello, world"
 
-#     @http.route('/todo_app/todo_app/objects/', auth='public')
+#     @http.route('/arch/arch/objects/', auth='public')
 #     def list(self, **kw):
-#         return http.request.render('todo_app.listing', {
-#             'root': '/todo_app/todo_app',
-#             'objects': http.request.env['todo_app.todo_app'].search([]),
+#         return http.request.render('arch.listing', {
+#             'root': '/arch/arch',
+#             'objects': http.request.env['arch.arch'].search([]),
 #         })
 
-#     @http.route('/todo_app/todo_app/objects/<model("todo_app.todo_app"):obj>/', auth='public')
+#     @http.route('/arch/arch/objects/<model("arch.arch"):obj>/', auth='public')
 #     def object(self, obj, **kw):
-#         return http.request.render('todo_app.object', {
+#         return http.request.render('arch.object', {
 #             'object': obj
 #         })
