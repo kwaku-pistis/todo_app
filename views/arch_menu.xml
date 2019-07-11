@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+    <!-- Action to open arch Task List -->
+    <act_window id="action_todo_task"
+        name="Arch To-do Task"
+        res_model="arch.task"
+        view_mode="tree,form"/>
+
+    <!-- Menu item to open Arch To-do Task list -->
+    <menuitem id="menu_todo_task"
+        name="Todos"
+        action="action_todo_task"/>
+</odoo>
